@@ -93,7 +93,7 @@ able to use it.
 ## Install TypeScript
 
 TypeScript is readily available as an npm package. Let's install it onto our 
-machines globally in terimnal with the command:
+machines globally in terminal with the command:
 
 `npm install -g typescript`
 
@@ -104,7 +104,7 @@ To check that the `tsc` command was installed properly, try running:
 
 `tsc --help`
 
-If successful, you see should output that indicates how to use this command.
+If successful, you should see output that indicates how to use this command.
 
 ## Using TypeScript
 
@@ -140,7 +140,7 @@ And see the corresponding output in the console.
 > **Note**: When using `tsc` to compile TypeScript into JavaScript, it will
 > always overwrite any preexisting code in the corresponding JavaScript file.
 > When using TypeScript, make sure you're always working in the `.ts` file, 
-> not the `.js` to avoid accidentally overwriting your work! 
+> not the `.js`, to avoid accidentally overwriting your work! 
 
 ## Implementing the `add()` function with TypeScript
 
@@ -166,8 +166,8 @@ console.log(add('10', '20'));
 ```
 
 With this code, we've introduced a key feature of TypeScript, **type annotation**.
-THe following syntax `firstNumber: number` specifies the type of the variable `firstNumber` 
-as a `number`, which means that  the TypeScript compiler will warn us if anyone 
+The syntax `firstNumber: number` specifies the type of the variable `firstNumber` 
+as a `number`, which means that the TypeScript compiler will warn us if anyone 
 tries to call the method with parameters that are not of type `number`. 
 
 It achieves the same functionality as our JavaScript workaround (with the `typeof` 
